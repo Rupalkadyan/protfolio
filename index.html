@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUPAL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--rgba(32,150,190,255)rgba(32,150,190,255)-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><span>R</span>UPAL</div>
+                <ul id="sidemenu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" aria-hidden="true"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi,I'm <span>Rupal</span></h1>
+                <p>Web Developer,Programmer</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.png">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub"> About Me</h1>
+                    <p> I am Rupal ,and I am looking for a internship.I am  dedicated, and open-minded.
+                        I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am working on technical skills.
+                       
+                </p>
+                          <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                          </div>
+                          <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Webd </span><br> Desigining  Websites Frontend Interfaces</li>
+                                <li><span>DSA </span><br> Real life Problem solving</li>
+                                <li><span>Programming C++</span><br> To make thing Work faster</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                
+                                <li><span>2023</span><br> GRID-project</li>
+                                <li><span>2022</span><br> Tech-Fest participtant</li>
+                                
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-Current</span><br> Btech  from NIT-KKR</li>
+                                <li><span>2020 </span><br>Senior Secondary from UPS </li>
+                                <li><span>2018</span><br>Secondary from L.H.I.S </li>
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--service section-->
+    <div id="services">
+        <div class="container">
+         <h1 class="sub"> My Services</h1>
+         <div class="services-list">
+            <div>
+                <i class="fa-brands fa-dev"></i>
+                <h2> Web Design</h2>
+                <p>I am able to work as a forntend developer.
+                    I have amble amount of skills of html ,css,javascript.
+                    I also working on gaining skills in backend development and learning react .
+                </p>
+            
+                <a href="#"> Learn more</a>
+              </div>
+
+              <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>DSA</h2>
+                <p> I am working on my thinking capability of algorithms.
+                    I also try to learn code optimisation and to reduce time complexities.
+                     
+                     </p>
+                <a href="#"> Learn more</a>
+              </div>
+
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> C++ Programming</h2>
+                <p>
+                    I am able to working with c++ language,which is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+                </p>
+                <a href="#"> Learn more</a>
+              </div>
+         </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-2 - Copy.png">
+                    <div class="layer">
+                        <h3>Weather app</h3>
+                        <p>A app which tells us about the weather of given city with use of weather map api.</p>
+                            <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p2r.png">
+                    <div class="layer">
+                        <h3>DSA</h3>
+                        <p>I working on dijkstara algorithm.
+                            With help of this algorithm we able to find shortest path between two points.
+                            I am working on this project.
+                        </p>
+                            <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p1 - Copy.png">
+                    <div class="layer">
+                        <h3>C++ Programming</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Repudiandae natus laboriosam veritatis modi ipsum et culpa accusantium unde?</p>
+                            <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-l">
+                    <h1 class="sub"> Contact Me</h1>
+                    <p> <i class="fa fa-envelope" aria-hidden="true"></i>
+                    12114155@nitkkr.ac.in</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>
+                        8307292----</p>
+                    <div class="social-icon">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/"><i class="fab fa-instagram-square"></i></a>
+                        <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a class="btn btn2" href="images/protfolio1.png "download>Download CV</a>
+                </div>
+                <div class="contact-r">
+                    <form>
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type ="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Rupal </p>
+        </div>
+    </div>
+    
+    
+    <script > var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
